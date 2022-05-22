@@ -1,0 +1,25 @@
+192.168.0.10
+sample.roboshopinternal
+192.168.0.[10:20]
+
+# Institute (Company) , USA (Multi regions) , INDIA  (Multi regions)
+#web, app, db
+
+COUNTRYCODE-DCNO-APPTYPE-PROJECTCODE-ENV-INDEX.DOMAIN
+2C-2N-web/app/db-3C-3C-2N.DOMAIN
+
+us-01-web-catlg-d-01.roboshopinternal
+
+# Roboshop our scope in lab
+
+[DEV]
+catalogue-dev.roboshopinternal
+cart-dev.roboshopinternal
+
+[PRD]
+catalogue-prd.roboshopinternal
+cart-prd.roboshopinternal
+
+[CATALOGUE]
+catalogue-prd.roboshopinternal
+catalogue-dev.roboshopinternal
