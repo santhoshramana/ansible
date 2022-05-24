@@ -6,3 +6,14 @@
     - name: Print URL
       ansible.builtin.debug:
         msg: URL = {{URL}}
+
+# if we declare a varaible  in a play book it will take all the plays..
+
+- name: Play level variables from a file
+  hosts: all
+  vars_files:
+    - sample-vars.yml
+  tasks:
+    - name: Print URL
+      ansible.builtin.debug:
+        msg: URL = {{URL}}
