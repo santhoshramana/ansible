@@ -17,3 +17,14 @@
     - name: Print URL
       ansible.builtin.debug:
         msg: URL = {{URL}}
+
+- name: Task Level variable
+  hosts: all
+  tasks:
+    - name: Print URL
+      ansible.builtin.debug:
+        msg: URL = {{URL}}
+      vars:
+        URL: hosts.example.com
+
+# Declaring a varible on taks level only that task will work
