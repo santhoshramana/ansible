@@ -4,3 +4,4 @@
     - name: Print hello sathosh
       ansible.builtin.debug:
         msg: "Hello santhosh"
+        tes
